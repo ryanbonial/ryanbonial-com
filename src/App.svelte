@@ -3,32 +3,18 @@
 </script>
 
 <style>
-  main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
-  }
 
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
 </style>
 
-<main>
-  <h1>Hello {name}!</h1>
-  <p class="bg-black">
-    Visit the
-    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-    to learn how to build Svelte apps.
-  </p>
+<main class="flex justify-center">
+  <div class="w-2/3">
+    <div class="flex">
+      <div class="w-full border-gray-500 border-solid h-12">
+        <h1 class="text-2xl font-extrabold">Ryan Bonial</h1>
+      </div>
+    </div>
+
+    <div class="flex" />
+  </div>
+
 </main>
