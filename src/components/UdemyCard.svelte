@@ -1,5 +1,5 @@
 <script>
-  export let imageUrl;
+  export let imageUrl = 'images/udemy_logo.png';
   export let title;
   export let completedDate;
   export let certificateUrl;
