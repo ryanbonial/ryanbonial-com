@@ -62,7 +62,7 @@ const UdemyCourses = [
   {
     title: 'Modern React with Redux',
     completedDate: 'Jan 2019',
-    certificateUrl: '',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-4G32CLG8',
     imageUrl: 'https://img-a.udemycdn.com/course/240x135/705264_caa9_11.jpg'
   },
   {
