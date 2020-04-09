@@ -1,16 +1,13 @@
 <script>
   import UdemyCourses from "./data/udemyCourses";
   import UdemyCard from "./components/UdemyCard.svelte";
-
-  // export let name;
 </script>
 
-<style>
-
+<style>  
 </style>
 
-<main class="flex justify-center mt-8">
-  <div class="w-2/3 bg-indigo-800 p-5 shadow-lg rounded-lg">
+<main class="flex justify-center mt-4 lg:mt-8">
+  <div class="w-11/12 lg:w-2/3 bg-indigo-800 p-5 shadow-lg rounded-lg">
     <header class="flex">
       <img
         class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
@@ -27,7 +24,7 @@
     <section class="mb-4">
       <h2 class="text-gray-300 text-2xl py-2">Links</h2>
       <ul class="text-white">
-        <li>
+        <li class="mb-1">
           <a
             href="https://www.linkedin.com/in/ryan-bonial"
             target="_blank"
@@ -36,7 +33,7 @@
             Linkedin
           </a>
         </li>
-        <li>
+        <li class="mb-1">
           <a
             href="https://github.com/ryanbonial"
             target="_blank"
@@ -45,7 +42,7 @@
             GitHub
           </a>
         </li>
-        <li>
+        <li class="mb-1">
           <a
             href="https://www.codewars.com/users/ryanbonial/stats"
             target="_blank"
@@ -54,7 +51,7 @@
             Codewars
           </a>
         </li>
-        <li>
+        <li class="mb-1">
           <a
             href="https://www.hackthebox.eu/profile/211837"
             target="_blank"
