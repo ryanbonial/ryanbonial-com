@@ -1,5 +1,11 @@
 const UdemyCourses = [
   {
+    title: 'The Ultimate MySQL Bootcamp',
+    completedDate: 'April 2020',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-790ffdd2-6a85-4159-a880-3ba3997ec3f4',
+    imageUrl: 'https://img-a.udemycdn.com/course/240x135/1187016_51b3.jpg'
+  },
+  {
     title: 'Practical Ethical Hacking',
     completedDate: 'Feb 2020',
     certificateUrl: 'https://www.udemy.com/certificate/UC-587ea4ad-f982-4c97-804c-888b05d5c396',
