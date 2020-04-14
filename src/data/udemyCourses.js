@@ -1,5 +1,11 @@
 const UdemyCourses = [
   {
+    title: 'Learn how to DJ From The Wu-Tang Clan',
+    completedDate: 'April 2020',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-40f061ae-6296-4225-bc59-01e13c530761/',
+    imageUrl: 'https://img-a.udemycdn.com/course/240x135/1186942_5deb.jpg'
+  },
+  {
     title: 'The Ultimate MySQL Bootcamp',
     completedDate: 'April 2020',
     certificateUrl: 'https://www.udemy.com/certificate/UC-790ffdd2-6a85-4159-a880-3ba3997ec3f4',
