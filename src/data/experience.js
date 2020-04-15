@@ -13,7 +13,7 @@ const Experience = [
     { skill: "Mongo", level: 1 },
     { skill: "GraphQL", level: 3 },
     { skill: "Android", level: 1 },
-    { skill: "Machine Learning", level: 2 }
+    { skill: "AI / ML", level: 2 }
 ];
 
 export default Experience;
