@@ -1,13 +1,15 @@
 <script>
   import UdemyCourses from "./data/udemyCourses";
   import UdemyCard from "./components/UdemyCard.svelte";
+  import ExperienceChart from "./components/ExperienceChart.svelte";
 </script>
 
-<style>  
+<style>
+
 </style>
 
 <main class="flex justify-center mt-4 lg:mt-8">
-  <div class="w-11/12 lg:w-2/3 bg-indigo-800 p-5 shadow-lg rounded-lg">
+  <div class="w-11/12 lg:w-2/3 bg-indigo-800 p-5 shadow-lg rounded-md">
     <header class="flex">
       <img
         class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
@@ -19,12 +21,9 @@
       </h1>
     </header>
 
-    <p class="text-white" />
-
-    <section class="mb-4">
-      <h2 class="text-gray-300 text-2xl py-2">Links</h2>
-      <ul class="text-white">
-        <li class="mb-1">
+    <section class="mb-4 mt-4">
+      <ul class="text-white lg:inline-flex">
+        <li class="mb-1 mr-4">
           <a
             href="https://www.linkedin.com/in/ryan-bonial"
             target="_blank"
@@ -33,7 +32,7 @@
             Linkedin
           </a>
         </li>
-        <li class="mb-1">
+        <li class="mb-1 mr-4">
           <a
             href="https://github.com/ryanbonial"
             target="_blank"
@@ -42,7 +41,7 @@
             GitHub
           </a>
         </li>
-        <li class="mb-1">
+        <li class="mb-1 mr-4">
           <a
             href="https://www.codewars.com/users/ryanbonial/stats"
             target="_blank"
@@ -51,7 +50,7 @@
             Codewars
           </a>
         </li>
-        <li class="mb-1">
+        <li class="mb-1 mr-4">
           <a
             href="https://www.hackthebox.eu/profile/211837"
             target="_blank"
@@ -60,12 +59,14 @@
             Hack The Box
           </a>
         </li>
-      </ul>     
+      </ul>
     </section>
 
-    <!-- <section  class="mb-4">
-      <h2 class=" text-white text-xl">Experience Chart</h2>
-    </section> -->
+    <section class="mb-4">
+      <div class="bg-white shadow-xl rounded-md overflow-hidden">
+        <ExperienceChart />
+      </div>
+    </section>
 
     <section class="mb-4">
       <h2 class="text-gray-300 text-2xl py-2">Completed Courses</h2>
