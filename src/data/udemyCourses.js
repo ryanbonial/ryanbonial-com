@@ -1,5 +1,11 @@
 const UdemyCourses = [
   {
+    title: 'AWS Serverless APIs & Apps',
+    completedDate: 'April 2020',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-e43d2c67-d0b7-4ffb-8ec6-6fde5d2fb3ff/',
+    imageUrl: 'https://img-a.udemycdn.com/course/240x135/1241254_9cc1.jpg'
+  },
+  {
     title: 'Learn how to DJ From The Wu-Tang Clan',
     completedDate: 'April 2020',
     certificateUrl: 'https://www.udemy.com/certificate/UC-40f061ae-6296-4225-bc59-01e13c530761/',
@@ -179,7 +185,7 @@ const UdemyCourses = [
     certificateUrl: 'https://www.udemy.com/certificate/UC-7JX4ZZ89/',
     imageUrl: 'https://img-a.udemycdn.com/course/240x135/947098_02ec.jpg'
   },
-  
+
 ];
 
 export default UdemyCourses;
