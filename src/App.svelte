@@ -9,7 +9,7 @@
 </style>
 
 <main class="flex justify-center mt-4 lg:mt-8">
-  <div class="w-11/12 lg:w-2/3 bg-indigo-800 p-5 shadow-lg">
+  <div class="w-11/12 lg:w-2/3 bg-indigo-800 p-5 shadow-xl">
     <header class="flex">
       <img
         class="rounded-full w-20 h-20 object-cover border-4 border-indigo-500"
@@ -63,7 +63,7 @@
     </section>
 
     <section class="mb-4">
-      <div class="bg-white shadow-xl overflow-hidden">
+      <div class="bg-white overflow-hidden">
         <ExperienceChart />
       </div>
     </section>

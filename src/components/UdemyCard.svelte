@@ -6,7 +6,7 @@
 </script>
 
 <a href={certificateUrl} target="_blank" rel="noreferrer noopener">
-  <div class="bg-white shadow-xl overflow-hidden">
+  <div class="bg-white overflow-hidden">
     <div class="bg-cover bg-center h-20 p-12" style="background-image: url({imageUrl})" />
 
     <div class="m-2 text-sm">
