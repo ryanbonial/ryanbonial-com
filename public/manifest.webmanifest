@@ -1,0 +1,22 @@
+{
+    "short_name": "Ryan Bonial",
+    "name": "Ryan Bonial",
+    "description": "Software developer",
+    "icons": [
+      {
+        "src": "/favicon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/favicon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3c366b",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3c366b"
+  }
