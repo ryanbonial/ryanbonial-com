@@ -16,7 +16,7 @@
             data: Experience.map(e => e.level),
             backgroundColor: "rgba(102, 187, 106, 0.4)",
             borderColor: "rgba(102, 187, 106, 1)",
-            borderWidth: 2
+            borderWidth: 4
           }
         ]
       },
@@ -34,7 +34,7 @@
             }
           ],
           yAxes: [
-            {             
+            {
               gridLines: {
                 display: false
               },

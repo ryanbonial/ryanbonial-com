@@ -12,7 +12,7 @@
   <div class="w-11/12 lg:w-2/3 bg-indigo-800 p-5 shadow-lg">
     <header class="flex">
       <img
-        class="rounded-full w-20 h-20 object-cover border-2 border-indigo-500"
+        class="rounded-full w-20 h-20 object-cover border-4 border-indigo-500"
         src="images/profile.jpg"
         alt="profile picture" />
 
