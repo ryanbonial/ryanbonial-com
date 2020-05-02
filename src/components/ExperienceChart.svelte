@@ -51,4 +51,4 @@
   });
 </script>
 
-<canvas id="experienceChart" width="500" height="300" />
+<canvas id="experienceChart" width="500" height="300" class="border-4 border-indigo-500" />
