@@ -6,6 +6,9 @@
 
   onMount(() => {
     var ctx = document.getElementById("experienceChart").getContext("2d");
+    Chart.defaults.global.defaultFontStyle = '600';
+    Chart.defaults.global.defaultFontColor = 'black';
+    Chart.defaults.global.defaultFontFamily = 'Oxygen';
     var myChart = new Chart(ctx, {
       type: "bar",
       data: {
