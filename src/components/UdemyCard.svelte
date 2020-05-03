@@ -11,7 +11,7 @@
 
     <div class="m-2 text-sm">
       <p class="text-right text-xs mb-2">{completedDate}</p>
-      <h2 class="font-bold h-16 mb-4">{title}</h2>
+      <h2 class="font-semibold h-16 mb-4">{title}</h2>
     </div>
   </div>
 </a>
