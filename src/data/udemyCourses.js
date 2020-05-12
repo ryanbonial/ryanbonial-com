@@ -1,5 +1,11 @@
 const UdemyCourses = [
   {
+    title: 'Node JS: Advanced Concepts',
+    completedDate: 'May 2020',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-10b505a8-3386-48f3-a857-79e9be973f4e/',
+    imageUrl: '/images/udemy-courses/1587718_8fdf.jpg'
+  },
+  {
     title: 'AWS Serverless APIs & Apps',
     completedDate: 'April 2020',
     certificateUrl: 'https://www.udemy.com/certificate/UC-e43d2c67-d0b7-4ffb-8ec6-6fde5d2fb3ff/',
