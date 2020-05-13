@@ -2,6 +2,19 @@
   import UdemyCourses from "./data/udemyCourses";
   import UdemyCard from "./components/UdemyCard.svelte";
   import ExperienceChart from "./components/ExperienceChart.svelte";
+
+  function handleClickAnalytic(event) {
+    console.log(event.target);
+    alert(event.target.href)
+    // gtag("event", "click", {
+    //   event_category: "outbound",
+    //   event_label: event.target,
+    //   transport_type: "beacon",
+    //   // event_callback: function() {
+    //   //   document.location = url;
+    //   // }
+    // });
+  }
 </script>
 
 <style>
@@ -74,7 +87,7 @@
         class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6
         gap-2">
         {#each UdemyCourses as course, i}
-          <UdemyCard {...course} />
+          <UdemyCard {...course} on:click={handleClickAnalytic} />
         {/each}
       </div>
     </section>
