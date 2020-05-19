@@ -1,5 +1,11 @@
 const UdemyCourses = [
   {
+    title: 'Rekordbox DJ',
+    completedDate: 'May 2020',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-c8ca3f6f-978a-4648-9784-424ae001fbf0/',
+    imageUrl: '/images/udemy-courses/2178424_c230_3.jpg'
+  },
+  {
     title: 'Node JS: Advanced Concepts',
     completedDate: 'May 2020',
     certificateUrl: 'https://www.udemy.com/certificate/UC-10b505a8-3386-48f3-a857-79e9be973f4e/',
