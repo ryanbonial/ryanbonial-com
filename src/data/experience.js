@@ -10,7 +10,7 @@ const Experience = [
     { skill: "C#", level: 3 },
     { skill: "Java", level: 3 },
     { skill: "SQL", level: 2 },
-    { skill: "Mongo", level: 1 },
+    { skill: "Mongo", level: 2 },
     { skill: "GraphQL", level: 3 },
     { skill: "Android", level: 1 },
     { skill: "AI / ML", level: 2 }
