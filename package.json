@@ -22,7 +22,7 @@
     "tailwindcss": "^1.2.0"
   },
   "dependencies": {
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "sirv-cli": "^0.4.4"
   }
 }
