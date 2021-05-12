@@ -1,5 +1,11 @@
 const UdemyCourses = [
   {
+    title: 'Microfrontends with React',
+    completedDate: 'May 2021',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-c16b3e87-a65d-403f-aada-9a9d03da7ede/',
+    imageUrl: '/images/udemy-courses/3604434_7884_3.jpg'
+  },
+  {
     title: 'Rekordbox DJ',
     completedDate: 'May 2020',
     certificateUrl: 'https://www.udemy.com/certificate/UC-c8ca3f6f-978a-4648-9784-424ae001fbf0/',
