@@ -1,5 +1,11 @@
 const UdemyCourses = [
   {
+    title: 'Testing React with Jest and Testing Library',
+    completedDate: 'May 2021',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-e63622bb-57d7-4719-98d3-b1495aac564c/',
+    imageUrl: '/images/udemy-courses/3780436_e8b4_6.jpg'
+  },
+  {
     title: 'Microfrontends with React',
     completedDate: 'May 2021',
     certificateUrl: 'https://www.udemy.com/certificate/UC-c16b3e87-a65d-403f-aada-9a9d03da7ede/',
