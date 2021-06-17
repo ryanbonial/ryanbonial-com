@@ -14,7 +14,9 @@
       <img
         class="rounded-full w-20 h-20 object-cover border-4 border-indigo-500"
         src="images/profile.jpg"
-        alt="profile picture" />
+        alt="profile picture"
+        width="80"
+        height="80" />
 
       <h1 class="text-gray-300 text-3xl font-semibold mt-4 ml-5">
         Ryan Bonial
