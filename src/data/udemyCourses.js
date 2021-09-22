@@ -1,5 +1,11 @@
 const UdemyCourses = [
   {
+    title: 'Intro to Bug Bounty Hunting',
+    completedDate: 'September 2021',
+    certificateUrl: 'https://www.udemy.com/certificate/UC-8f2cb112-6686-4cfc-90f9-eb99c0d455c5/',
+    imageUrl: '/images/udemy-courses/3293978_fce5_2.jpg'
+  },
+  {
     title: 'Testing React with Jest and Testing Library',
     completedDate: 'May 2021',
     certificateUrl: 'https://www.udemy.com/certificate/UC-e63622bb-57d7-4719-98d3-b1495aac564c/',
