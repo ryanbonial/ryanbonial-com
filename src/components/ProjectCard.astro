@@ -1,0 +1,119 @@
+---
+interface Props {
+  name: string;
+  tagline: string;
+  description: string;
+  url?: string;
+  repo: string;
+  image?: string;
+  imageAlt?: string;
+}
+
+const { name, tagline, description, url, repo, image, imageAlt } = Astro.props;
+---
+
+<article class="project-card group">
+  <p class="text-xs font-medium uppercase tracking-wider text-plum-400 mb-1">{tagline}</p>
+  <div class="flex items-center gap-2.5 mb-3">
+    {image && (
+      <img
+        src={image}
+        alt={imageAlt || name}
+        class="w-8 h-8 rounded-md object-cover"
+        loading="lazy"
+      />
+    )}
+    <h3 class="text-xl sm:text-2xl font-semibold text-plum-100">{name}</h3>
+  </div>
+  <p class="text-plum-300 text-sm sm:text-base leading-relaxed mb-6">{description}</p>
+  <div class="flex gap-3 flex-wrap">
+    {url && (
+      <a
+        href={url}
+        class="card-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visit site <span aria-hidden="true">&rarr;</span>
+        <span class="sr-only">(opens in new tab)</span>
+      </a>
+    )}
+    <a
+      href={repo}
+      class={url ? "card-link-secondary" : "card-link"}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub <span aria-hidden="true">&rarr;</span>
+      <span class="sr-only">(opens in new tab)</span>
+    </a>
+  </div>
+</article>
+
+<style>
+  .project-card {
+    background-color: color-mix(in srgb, var(--color-plum-800) 60%, transparent);
+    border: 1px solid var(--color-plum-700);
+    border-radius: 1rem;
+    padding: 2rem;
+    backdrop-filter: blur(8px);
+    transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  }
+
+  .project-card:hover {
+    border-color: var(--color-plum-500);
+    box-shadow: 0 0 30px color-mix(in srgb, var(--color-plum-600) 30%, transparent);
+    transform: translateY(-3px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .project-card {
+      transition: none;
+    }
+    .project-card:hover {
+      transform: none;
+    }
+  }
+
+  .card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background: linear-gradient(135deg, var(--color-plum-600), var(--color-magenta-500));
+    color: white;
+    transition: opacity 0.2s;
+  }
+
+  .card-link:hover {
+    opacity: 0.85;
+  }
+
+  .card-link-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: 1px solid var(--color-plum-600);
+    color: var(--color-plum-300);
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .card-link-secondary:hover {
+    border-color: var(--color-plum-400);
+    color: var(--color-plum-100);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card-link,
+    .card-link-secondary {
+      transition: none;
+    }
+  }
+</style>
