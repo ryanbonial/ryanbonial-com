@@ -9,12 +9,22 @@ import Footer from "../components/Footer.astro";
 ---
 
 <Base>
-  <GeoBackground />
-  <Jellyfish />
-  <main>
-    <Hero />
-    <About />
-    <Projects />
-  </main>
-  <Footer />
+  <div class="page-wrap">
+    <GeoBackground />
+    <Jellyfish />
+    <main>
+      <Hero />
+      <About />
+      <Projects />
+    </main>
+    <Footer />
+  </div>
 </Base>
+
+<style>
+  .page-wrap {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+</style>
