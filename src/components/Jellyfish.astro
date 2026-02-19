@@ -1,0 +1,39 @@
+---
+---
+
+<div class="jellyfish" aria-hidden="true">
+  <img
+    src="/images/jellyfish.png"
+    alt=""
+    class="jellyfish-img"
+    loading="lazy"
+  />
+</div>
+
+<style>
+  .jellyfish {
+    position: fixed;
+    left: -5%;
+    top: 22%;
+    z-index: 0;
+    pointer-events: none;
+    width: clamp(350px, 45vw, 650px);
+    opacity: 0.35;
+    mix-blend-mode: lighten;
+  }
+
+  .jellyfish-img {
+    width: 100%;
+    height: auto;
+    filter: hue-rotate(-45deg) saturate(1.2);
+  }
+
+  @media (max-width: 768px) {
+    .jellyfish {
+      opacity: 0.2;
+      width: 300px;
+      left: -10%;
+      top: 30%;
+    }
+  }
+</style>
